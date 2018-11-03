@@ -845,7 +845,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-AfQfqR9hbNSpY/9yyGaUAiT1tmyHzaJbHJpqkfn8DGAUkPTG5VwPoulajQu3FUQXTr8NGm4MFaupVzmWkvln4Q==
-      tarball: 'http://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.41.tgz'
   /balanced-match/1.0.0:
     dev: false
     resolution:
@@ -1052,7 +1051,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Dph0MzuH+rTQzGPNT9fAnrPmMmjKfST6trxJeK7NQuHRaVw24VzPRWTmg9MpcwOVQZO0E1FBICUlFeNaKPIfHA==
-      tarball: 'http://registry.npmjs.org/cacache/-/cacache-10.0.4.tgz'
   /cache-base/1.0.1:
     dependencies:
       collection-visit: 1.0.0
@@ -3657,7 +3655,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-ofeDj4MUxRbwXs78vEzP4EtO14k=
-      tarball: 'http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz'
   /onetime/2.0.1:
     dependencies:
       mimic-fn: 1.2.0
@@ -3931,7 +3928,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-ITXW36ejWMBprJsXh3YogihFD/o=
-      tarball: 'http://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz'
   /pinkie/2.0.4:
     dev: false
     engines:
