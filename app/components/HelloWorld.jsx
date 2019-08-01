@@ -1,6 +1,7 @@
 const React = require('react');
 const Link = require('react-router-dom').Link
 const UnorderedList = require('./UnorderedList');
+const Table = require('./Table');
 const About = require('./About');
 const VoteContainer = require('../containers/VoteContainer');
 
@@ -43,6 +44,8 @@ const HelloWorld = function() {
       <UnorderedList items={componentsMade} />
       
       <VoteContainer label="Upvote or downvote this app!"/>
+      
+      <Table />
     </div>
   );
 };
