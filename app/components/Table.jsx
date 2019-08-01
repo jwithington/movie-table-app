@@ -1,25 +1,24 @@
 const React = require('react');
 
-export class Table extends React.Component {
-  
-  render()  {
+const Table = function() {
     return (
       <table>
           <thead>
               <tr>
-                  <th colspan="3">The table header</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Release Date</th>
+                  <th scope="col">Summary</th>
               </tr>
           </thead>
           <tbody>
               <tr>
-                  <td>The table body</td>
-                  <td>with two columns</td>
+                  <td>Kiki's Delivery Service</td>
+                  <td>1989-07-29</td>
+                  <td>A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.</td>
               </tr>
           </tbody>
       </table>
     );
-  }
-  
 }
 
-export default Table;
+module.exports = Table;

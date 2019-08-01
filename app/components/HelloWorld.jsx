@@ -30,6 +30,10 @@ const HelloWorld = function() {
   return (
     <div>
       <h1>Hello World!</h1>
+      
+      <Table /> 
+      
+      <Link to='/table'>It's a table!</Link>
 
       <Link to='/about'>Read about and Rate this app!</Link>
 
@@ -43,9 +47,9 @@ const HelloWorld = function() {
 
       <UnorderedList items={componentsMade} />
       
-      <VoteContainer label="Upvote or downvote this app!"/>
+
+      <VoteContainer label="Upvote / downvote this app!"/>
       
-      <Table />
     </div>
   );
 };

@@ -16,6 +16,7 @@ let store = createStore(votes);
 /* Import Components */
 const HelloWorld = require('./components/HelloWorld');
 const About = require('./components/About');
+const Table = require('./components/Table');
 
 render((
   <Provider store={store}>
@@ -23,6 +24,7 @@ render((
       <div>
         <Route exact path="/" component={HelloWorld}/>
         <Route path="/about" component={About}/>
+        <Route path="/table" component={Table}/>
       </div>
     </BrowserRouter>
   </Provider>), document.getElementById('main'));
